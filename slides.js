@@ -1,6 +1,6 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
     // Activate Carousel
-    $("#myCarousel").carousel();
+    $("#myCarousel").carousel({interval: 500});
 
     // Enable Carousel Indicators
     $(".item1").click(function(){
@@ -23,4 +23,4 @@
     $(".right").click(function(){
         $("#myCarousel").carousel("next");
     });
-}); */
+});
